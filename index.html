@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Главная</title>
+    <meta charset="utf-8">
+    <!--Подключение шрифтов для сайта. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header> <!-- шапка сайта -->
+      <div class="container">
+        <p id="">Изменение цветовой политры сайта>>></p>
+      <input id="col" type="color"> <!-- добавление файлов кнопок и т.д. тип color показывает браузеру, какой объект нужно добавить на страницу в нашем случае палитру цветов -->
+    </div>
+    </header> 
+
+<!--     Первый раздел "О чём страница". -->
+    <section class="section" id="section-1">
+      <h1>Языки программирования. </h1>
+      <img src="https://naked-science.ru/wp-content/uploads/2016/08/field_image_computer-programming_0.jpeg" class=firstimage>
+    </section>
+
+<!--     Первый раздел "Подробности". -->
+    <section class="section" id="section-2">
+      <h2>Языки низкого уровня</h2>
+      <p>Язык низкого уровня , [low-level language ] - Язык программирования, предназначенный для определенного типа ЭВМ и отражающий его внутренний машинный код (см. ниже также “машинный язык “, “ машинно-ориентированный язык “ и “ язык ассемблера “).</p>
+      <div class="con-buttom">
+        <a class="button" href="html-1.html">Читать больше</a>
+    </div>
+    </section>
+
+<!--     Второй раздел "Подробности". -->
+    
+    <section class="section" id="section-3">
+    <h2>Языки среднего уровня</h2>
+    <p>Языки близкие к машинному коду, но с элементами языков выского уровня.Как язык среднего уровня, С позволяет манипулировать битами, байтами и адресами — основными элементами, с которыми работает компьютер.</p>
+    <div class="con-buttom">
+     <a class="button" href="html-2.html">Читать больше</a>
+    </div>
+    </section>
+    
+    
+<!--     Последний раздел  -->    
+    <section class="section" id="section-4">
+    <h2>Языки высокого  уровня</h2>
+      <p>Язык высокого уровня [high-level language] - Язык программирования, средства которого обеспечивают описание задачи в наглядном, легко воспринимаемом виде, удобном для программиста. Он не зависит от внутренних машинных кодов ЭВМ любого типа, поэтому программы, написанные на языках высокого уровня, требуют перевода в машинные коды программами транслятора либо интерпретатора. К языкам высокого уровня относят Фортран , ПЛ/1 , Бейсик , Паскаль , Си , Ада и др. </p>
+      <div class="con-buttom">
+      <a class="button" href="html-3.html">Читать больше</a>
+    </div>
+    </section>
+
+    <section class="section" id="section-5">
+      <div class="slider">
+        <button class="left">  </button>
+        <div class="image"></div>
+        <button class="right"> > </button>
+  </div>
+</section>
+<section class="section" id="section-6">
+  <form name="test" method="post" action="input1.php">
+    <p><b>Ваше имя:</b><br>
+     <input type="text" size="40" name="nick">
+    </p>
+    <p><b>Каким браузером в основном пользуетесь:</b><Br>
+     <input type="radio" name="browser" value="ie"> Internet Explorer<Br>
+     <input type="radio" name="browser" value="opera"> Opera<Br>
+     <input type="radio" name="browser" value="firefox"> Firefox<Br>
+    </p>
+    <p>Комментарий<Br>
+     <textarea name="comment" cols="40" rows="3"></textarea></p>
+    <p><input type="submit" value="Отправить">
+     <input type="reset" value="Очистить"></p>
+   </form>
+   <div id="form_2">
+   <form  enctype="multipart/form-data" method="post">
+    <p id="text_form">Предлагаем Вам добавить своё вариант логотипа.Ниже форма для отправки фотографий.</p>
+    <p id="img_form"><input type="file" name="f">
+    <input type="submit" value="Отправить"></p>
+  </form>
+  </div> 
+</section>
+  </body>
+</html>
+<script src="skript.js"></script>
