@@ -1,3 +1,4 @@
+
 // Скрипт для изменения цвета
 var square1 = document.querySelector('#section-1');
 var square2 = document.querySelector('#section-2');
