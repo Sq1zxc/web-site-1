@@ -1,4 +1,3 @@
-
 // Скрипт для изменения цвета
 var square1 = document.querySelector('#section-1');
 var square2 = document.querySelector('#section-2');
@@ -21,9 +20,9 @@ color.oninput = function(){
 // Скрипт для слайдера и кнопок
 
 pictures = [
-	'imgonline-com-ua-Resize-TTReF9escMU.jpg',
+	'img.1.jpg',
 	'https://www.holidaytravel.co/uploaded_files/destination_img/2016_04580f5394a8020bandhavgarh-tourist-and-resorts-guide-qpr.jpg',
-	'https://shots.codepen.io/nik5f94/pen/rJBzbr-512.jpg?version=1517130607'
+	'https://sun9-38.userapi.com/impf/c628230/v628230886/264ce/6SCovCU7Nl8.jpg?size=500x500&quality=96&sign=9a15bb86f289848ed89940b40d16015c&type=album'
 ]
 
 img = document.querySelector('.image');
